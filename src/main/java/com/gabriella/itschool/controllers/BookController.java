@@ -26,4 +26,14 @@ public class BookController {
     public ResponseEntity<List<Book>> getAllBooks() {
         return ResponseEntity.ok(bookService.getAllBooks());
     }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<Book> getBook(@PathVariable long id) {
+        return ResponseEntity.ok(bookService.getBook(id));
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Book> deleteBook(@PathVariable long id) {
+        return ResponseEntity.ok(bookService.deleteBook(id));
+    }
 }

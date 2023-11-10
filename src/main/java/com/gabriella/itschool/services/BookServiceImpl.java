@@ -36,6 +36,18 @@ public class BookServiceImpl implements BookService {
         return bookList;
     }
 
+    public Book getBook(long id) {
+        return bookList.get((int) id - 1);
+    }
+
+    public Book deleteBook(long id) {
+        log.info("Book with id {} has been deleted", id);
+
+        return bookList.remove((int) id - 1);
+    }
+
+    // Validation
+
     private boolean isValid(Book book) {
         return !book.getTitle().isEmpty() || !book.getAuthor().isEmpty() || book.getPrice() != null;
     }
