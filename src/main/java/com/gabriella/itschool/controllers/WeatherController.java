@@ -1,6 +1,6 @@
 package com.gabriella.itschool.controllers;
 
-import com.gabriella.itschool.models.Weather;
+import com.gabriella.itschool.models.entities.Weather;
 import com.gabriella.itschool.services.WeatherService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

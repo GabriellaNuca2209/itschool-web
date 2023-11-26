@@ -1,6 +1,6 @@
 package com.gabriella.itschool.services;
 
-import com.gabriella.itschool.models.Book;
+import com.gabriella.itschool.models.entities.Book;
 
 import java.util.List;
 

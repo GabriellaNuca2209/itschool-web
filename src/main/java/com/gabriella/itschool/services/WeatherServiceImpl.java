@@ -2,7 +2,7 @@ package com.gabriella.itschool.services;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.gabriella.itschool.models.Weather;
+import com.gabriella.itschool.models.entities.Weather;
 import lombok.extern.slf4j.Slf4j;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;

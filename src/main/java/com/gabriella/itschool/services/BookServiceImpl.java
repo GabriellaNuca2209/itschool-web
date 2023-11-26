@@ -1,6 +1,6 @@
 package com.gabriella.itschool.services;
 
-import com.gabriella.itschool.models.Book;
+import com.gabriella.itschool.models.entities.Book;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

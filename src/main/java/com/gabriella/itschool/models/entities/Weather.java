@@ -1,4 +1,4 @@
-package com.gabriella.itschool.models;
+package com.gabriella.itschool.models.entities;
 
 import lombok.Data;
 

@@ -1,6 +1,6 @@
 package com.gabriella.itschool.controllers;
 
-import com.gabriella.itschool.models.Book;
+import com.gabriella.itschool.models.entities.Book;
 import com.gabriella.itschool.services.BookService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

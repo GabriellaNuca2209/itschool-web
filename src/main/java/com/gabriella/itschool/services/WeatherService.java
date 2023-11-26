@@ -1,6 +1,6 @@
 package com.gabriella.itschool.services;
 
-import com.gabriella.itschool.models.Weather;
+import com.gabriella.itschool.models.entities.Weather;
 
 import java.io.IOException;
 
