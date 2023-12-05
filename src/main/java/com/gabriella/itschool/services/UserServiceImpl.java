@@ -1,5 +1,6 @@
 package com.gabriella.itschool.services;
 
+import com.gabriella.itschool.exceptions.UserCreateException;
 import com.gabriella.itschool.models.dtos.UserDTO;
 import com.gabriella.itschool.models.entities.User;
 import com.gabriella.itschool.repositories.UserRepository;
@@ -24,7 +25,7 @@ public class UserServiceImpl implements UserService {
 
         // validation
         if (userDTO.getFirstName().length() < 3) {
-            throw new IllegalArgumentException("Invalid first name");
+            throw new UserCreateException("Invalid first name");
         }
 
         // conversion to entity
