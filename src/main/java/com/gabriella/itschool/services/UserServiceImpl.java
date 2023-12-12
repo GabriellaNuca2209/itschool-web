@@ -25,7 +25,7 @@ public class UserServiceImpl implements UserService {
 
         // validation
         if (userDTO.getFirstName().length() < 3) {
-            throw new UserCreateException("Invalid first name");
+            throw new UserCreateException("Invalid first name.");
         }
 
         // conversion to entity
